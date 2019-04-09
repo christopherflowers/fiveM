@@ -1,0 +1,2 @@
+# fiveM
+fiveM resource files
