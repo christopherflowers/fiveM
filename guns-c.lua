@@ -11,8 +11,8 @@ Citizen.CreateThread(function()
         --need otherwise it will crash the server
         Citizen.Wait(1)
         if IsControlJustReleased(1, h_key) then
-            giveWeapon("weapon_MarksmanPistol")
-            giveWeapon("weapon_Knife")
+            giveWeapon("weapon_pistol")
+            giveWeapon("weapon_knife")
             alert("~b~Given Weapons with ~INPUT_VEH_HEADLIGHT~")
         end
     end
