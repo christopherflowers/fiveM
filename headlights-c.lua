@@ -1,7 +1,6 @@
-Ped player = GetPlayerPed(-1)
-vehicle = player.CurrentVehicle
-VehicleDoor headlights
-backLeftDoorVehicles = {"ntypex"}
+local player = GetPlayerPed(-1)
+local vehicle = GET_VEHICLE_PED_IS_USING(player)
+-- local backLeftDoorVehicles = {"ntypex"}
 
 Citizen.CreateThread(function()
 
